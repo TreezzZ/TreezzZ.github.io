@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "I am Tree"
-header-img: "img/about_bg.jpg"
+header-img: "http://oij6q2fry.bkt.clouddn.com/about_bg.jpg"
 ---
 
 <div class="zh post-container">
