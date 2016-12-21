@@ -4,7 +4,7 @@ header-img: img/home_bg.jpg
 email: tree081996@gmail.com
 description: "存放一些代码,日常 and so on...喵喵喵"
 keyword: ""
-url: "https://treezzz.github.io/"
+url: "http://treezzz.github.io/"
 baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
