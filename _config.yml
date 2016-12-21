@@ -5,7 +5,7 @@ email: tree081996@gmail.com
 description: "存放一些代码,日常 and so on...喵喵喵"
 keyword: ""
 url: "http://treezzz.github.io/"
-baseurl: "/"         # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
