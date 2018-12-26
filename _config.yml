@@ -7,7 +7,7 @@
 
 # Site settings
 title: Tree的小书屋
-brief-intro: CS-Master@UCAS | 信息工程研究所第二研究室 | 咖啡控
+brief-intro: CS-Master@UCAS | 中国科学院信息工程研究所第二研究室 | 咖啡控
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://treezzz.github.io" # the base hostname & protocol for your site
 
