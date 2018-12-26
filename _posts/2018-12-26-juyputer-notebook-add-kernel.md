@@ -10,4 +10,5 @@ author: Tree
 {:toc}
 
 `python -m pip install ipykernel --user`
+
 `python -m ipykernel install --user --name  xxx`
