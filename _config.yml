@@ -1,96 +1,59 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: Tree
-header-img: img/home_bg.jpg
-email: tree081996@gmail.com
-description: "存放一些代码,日常 and so on...喵喵喵"
-keyword: ""
-url: "http://treezzz.github.io/"
-baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+title: Tree的小书屋
+brief-intro: CS-Master@UCAS | 信息工程研究所第二研究室 | 咖啡控
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://treezzz.github.io" # the base hostname & protocol for your site
 
+permalink: /:year/:month/:day/:title/
 
+# other links
+#twitter_username: Tree
+#facebook_username: Tree
+github_username: TreezzZ 
+weibo_username: u/6357305137
+zhihu_username: Yuuji
+#linkedIn_username: Tree 
+#dribbble_username:
 
-# SNS settings
-RSS: false
-zhihu_username:     Yuuji
-github_username:    TreezzZ
+description_footer: 不断提升自己
 
+# comments
+# two ways to comment, only choose one, and use your own short name
+# 两种评论插件，选一个就好了，使用自己的 short_name
+duoshuo_shortname: #hygblog
+disqus_shortname: TreezzzZ
 
+# statistic analysis 统计代码
+# 百度统计 id，将统计代码替换为自己的百度统计id，即
+# hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
+# xxxxx字符串
+#baidu_tongji_id: cf8506e0ef223e57ff6239944e5d46a4
+google_analytics_id: UA-131409322-1 # google 分析追踪id
 
 # Build settings
-# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-highlighter: rouge
-permalink: pretty
-paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
-
-
-
-# Gems
-# from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
-
-
-
-# Markdown settings
-# replace redcarpet to kramdown,
-# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
-# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM
+  syntax_highlighter: rouge
 
+# port
+# port: 1234
 
+# url
+category_dir: category/
+tag_dir: tag/
 
-# Disqus settings
-#disqus_username: _your_disqus_short_name_
+# excerpt
+excerpt_separator: "\n\n\n\n"
 
-# Duoshuo settings
-duoshuo_username: tree
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: false                     # set to false if you want to use Comment without Sharing
-
-
-
-
-# Analytics settings
-# Baidu Analytics
-#ba_track_id: 
-# Google Analytics
-#ga_track_id: ''            # Format: UA-xxxxxx-xx
-#ga_domain: 
-
-
-
-# Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "爱代码,喜动漫,常御宅.</br>爱安静的在阳光下读书."
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-
-# Friends
-#friends: [
-#    {
-#        title: "Hux Blog",
-#        href: "http://huangxuan.me"
-#    },{
-#        title: "Foo",
-#        href: "#"
-#    },{
-#        title: "Bar",
-#        href: "#"
-#    },{
-#        title: "Example Friends",
-#        href: "#"
-#    },{
-#        title: "It helps SEO",
-#        href: "#"
-#    }
-#]
+# paginate
+gems: [jekyll-paginate]
+paginate: 6
