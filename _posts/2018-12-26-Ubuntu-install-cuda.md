@@ -15,4 +15,10 @@ author: Tree
 4. `systemctl stop systemd-logind`
 5. `modprobe -r nvidia-drm`
 6. 安装cuda
-7. reboot
+7. 配置环境变量`vim ~/.bashrc`，末尾添加
+```
+export CUDA_HOME=/usr/local/cuda
+export LD_LIBRARY_PATH=${CUDA_HOME}/lib64 
+export  PATH=${CUDA_HOME}/bin:${PATH}
+```
+8. reboot
